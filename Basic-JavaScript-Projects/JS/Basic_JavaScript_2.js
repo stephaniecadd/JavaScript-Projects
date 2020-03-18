@@ -3,3 +3,6 @@ function My_First_Function () {
     sentence +=" No, it is not.";
     document.getElementById("Green_Text").innerHTML = sentence;
 }
+function Second_Function () {
+    document.getElementById("Hello").innerHTML = "Hello";
+}
