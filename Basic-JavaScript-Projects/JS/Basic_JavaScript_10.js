@@ -72,6 +72,7 @@ function break_function() {
     }
     document.getElementById("breakf").innerHTML = text;
 }
+//this continues the full loop
 function continue_function() {
     var text="";
     var i;

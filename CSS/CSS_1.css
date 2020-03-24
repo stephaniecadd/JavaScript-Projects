@@ -1,0 +1,19 @@
+input {
+    padding: 10px;
+    border: 2px solid teal;
+    margin: 10px;
+    cursor: pointer;
+}
+input.submit {
+    background-color: white;
+    color: teal;
+    cursor: pointer;
+}
+input.submit:hover {
+    background-color: teal;
+    color: white;
+}
+.formlabel {
+    padding-left: 15px;
+    color: teal;
+}
