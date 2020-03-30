@@ -1,10 +1,10 @@
 #menuBG {
-    width: 400px;
+    width: 600px;
     height: 470px;
     margin: 10px auto;
 }
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 200px;
 }
 #totalPrice {
@@ -17,6 +17,11 @@
     width: 200px;
     height: 200px;
     float: left;
+}
+.center {
+    width: 200px;
+    height: 200px;
+    float: right;
 }
 .right {
     width: 200px;
@@ -36,7 +41,7 @@
     height: 200px;
 }
 #btnOrder {
-    margin: 10px 0px 0px 100px;
+    margin: 10px 0px 0px 200px;
     width: 100px;
     height: 40px;
 }
