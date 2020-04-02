@@ -1,8 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <style>
+            h1 {
+                font-size: 2vw;
+            }
+            body {
+                opacity: 1;
+                transition: 1s opacity;
+            }
+            body.fade-out {
+                opacity: 0;
+                transition: none;
+            }
+        </style>
     </head>
     <body>
+        <script>
+        document.body.className += ' fade-out';
+        $(function() {
+            $('body').removeClass('fade-out');
+        });
+        </script>
         <!--This is a switch statement-->
     <h1>What is your favorite flower?</h1>
     <h3>Pick from the following options:</h3>
